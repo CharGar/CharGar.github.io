@@ -13,6 +13,6 @@ Prime
 		<p>A book by J. Daniel Bedford</p>
 		<a href="#">Read now.</a>
 	</div>
-	<p>&copy; Mystwood Publishers Limited</p>
+	<p>&copy; Resume 2016</p>
 </body>
 </html>
