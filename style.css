@@ -3,3 +3,8 @@ h3 {
   color: Green;
 }
 .hero {background-image: url  http://media.gettyimages.com/videos/majestic-vertical-waves-loop-ocean-blue-video-id161674890?s=640x640  background-size: cover;}
+.hero a{
+  background-size: cover;
+	color: rgb(46,105,163)
+	font-size 1.25rem;
+	text-decoration: none;
