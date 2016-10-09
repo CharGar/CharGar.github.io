@@ -4,6 +4,7 @@ h3 {
 }
 .hero {background-image: 
 	url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/swirl_pattern.png"); background-size: cover;
-	
+	padding: 250px 0;
+	margin: 30px;
 	
 }
