@@ -3,8 +3,7 @@ h3 {
   color: Green;
 }
 .hero {background-image: 
-	url("http://i48.tinypic.com/k4jktv.jpg"); 
-	padding: 250px 0;
-	margin: 30px;
+	url("http://i48.tinypic.com/k4jktv.jpg"); background-size: cover;
+	
 	
 }
