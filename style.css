@@ -20,7 +20,7 @@ h3 {
 }
 
 html, body {
-  min-height: 100%;
-  display: flex;
-  font-weight: 300;
-  line-height: 1.5;
+   border: 1px solid #000;
+  margin: 2px;
+
+}
