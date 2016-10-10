@@ -1,4 +1,3 @@
-
 h3 {
   color: Purple;
   font-family: courier new, serif;
@@ -20,4 +19,8 @@ h3 {
   border: 1px solid Black;
 }
 
-
+html, body {
+  min-height: 100%;
+  display: flex;
+  font-weight: 300;
+  line-height: 1.5;
