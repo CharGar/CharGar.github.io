@@ -1,8 +1,9 @@
 h3 {
   color: Purple;
   font-family: courier new, serif;
-padding-left: 15px;
-margin-bottom: 15px;
+  padding-left: 15px;
+  margin-bottom: 15px;
+  text-align: center;
 	}
 
 li {
