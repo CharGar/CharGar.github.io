@@ -2,9 +2,7 @@ h3 {
   color: Purple;
   font-family: courier new, serif;
 }
-background-image {
-	background-image: url("https://s-media-cache-ak0.pinimg.com/564x/c5/4f/5c/c54f5c95272b9f2edfdcc2ebd6d5a7b4.jpg"); background-size: cover;
-}
+
 
 headshot {
  src= "http://www.mooretalent.com/sites/default/files/styles/image_288x360/public/male-model/Charlie_Garnaas_8.jpg" ="centerme" 
@@ -18,6 +16,7 @@ headshot {
   text-align: center;
   font-weight: 100;
 }
+
 .page-info {  
   border: 1px solid Black;
 }
