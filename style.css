@@ -25,7 +25,7 @@ body {
 	background-repeat: repeat;
 }
 
-image {
+.headshot img {
  src= "http://www.mooretalent.com/sites/default/files/styles/image_288x360/public/male-model/Charlie_Garnaas_8.jpg";
   display:block;
   margin: 0 auto;
