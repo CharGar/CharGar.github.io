@@ -1,9 +1,19 @@
+html, body {
+   border: 1px solid #000;
+  margin: 2px;
+}
+body {
+	background-image: url(http://cdn1.bestpsdfreebies.com/wp-content/uploads/2014/05/shards_pattern.jpg);
+	background-position: top left;
+	background-repeat: repeat;
+}
+
 h3 {
-  color: Purple;
-  font-family: courier new, serif;
-  padding-left: 15px;
-  margin-bottom: 15px;
-  text-align: center;
+  	color: Purple;
+  	font-family: courier new, serif;
+  	padding-left: 15px;
+  	margin-bottom: 15px;
+  	text-align: center;
 	}
 ul {
 	text-align: center;
@@ -13,30 +23,18 @@ li {
 	padding-bottom: 15px;
 }
 
-html, body {
-   border: 1px solid #000;
-  margin: 2px;
-}
-
-
-body {
-	background-image: url(http://cdn1.bestpsdfreebies.com/wp-content/uploads/2014/05/shards_pattern.jpg);
-	background-position: top left;
-	background-repeat: repeat;
-}
-
 .headshot img {
-  float:center;
-  margin: 0 auto;
-  border-radius: 100px 100px 100px 100px;
+  	float:center;
+  	margin: 0 auto;
+  	border-radius: 100px 100px 100px 100px;
 }
 	
 
 .page-title {
-  text-align: center;
-  font-weight: 100;
+  	text-align: center;
+  	font-weight: 100;
 }
 
 .page-info {  
-  border: 1px solid Black;
+  	border: 1px solid Black;
 }
