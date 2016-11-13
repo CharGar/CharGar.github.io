@@ -8,8 +8,8 @@ body {
 	background-position: top left;
 	background-repeat: repeat;
 }
-headshot {
- src= "http://www.mooretalent.com/sites/default/files/styles/image_288x360/public/male-model/Charlie_Garnaas_8.jpg" ="centerme" 
+.headshot {
+ src= "http://www.mooretalent.com/sites/default/files/styles/image_288x360/public/male-model/Charlie_Garnaas_8.jpg" ="centerme";
   display:block;
   margin: 0 auto;
   border-radius: 15px 15px 15px 15px;
