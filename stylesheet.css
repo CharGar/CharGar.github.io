@@ -1,9 +1,195 @@
+#main {
+  /*width: 50%;*/
+  position: relative;
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+  font-family: fantasy;
+  font-size: 4.8em;
+  z-index: 1;
+  /*white-space:nowrap;*/
+}
+@media (max-width: 1000px){
+	#main{
+		font-size: 3.5em !important;
+	}
+}
+@media (max-width: 600px){
+	#main{
+		font-size: 2.5em !important;
+	}
+}
+@media (max-width: 400px){
+	#main{
+		font-size: 2em !important;
+	}
+}
+
+h1 {
+font-family: fantasy;
+  font-size: 4em;
+  margin-top: 50px;
+  z-index: 1;
+}
+
+span#one {
+  position: relative;
+  animation: see 5s;
+}
+span#two {
+  position: relative;
+  animation: ache 5s;
+}
+span#three {
+  position: relative;
+  animation: aye 5s;
+}
+span#four {
+  position: relative;
+  animation: are 5s;}
+span#five {
+  position: relative;
+  animation: ell 5s;
+}
+
+span#six {
+  position: relative;
+  animation: eye 5s;
+}
+
+span#seven {
+  position: relative;
+  animation: eaa 5s;
+}
+span#eight{
+  position: relative;
+  animation: space none;
+}
+span#nine {
+  position: relative;
+  animation: gee 5s;
+}
+span#ten {
+  position: relative;
+  animation: ayye 5s;
+}
+span#eleven {
+  position: relative;
+  animation: arre 5s;
+}
+span#twelve {
+  position: relative;
+  animation: enn 5s;
+}
+span#thirteen {
+  position: relative;
+  animation: ayyee 5s;
+}
+span#fourteen {
+  position: relative;
+  animation: ayyeee 5s;
+}
+span#fifteen {
+  position: relative;
+  animation: esss 5s;
+}
+
+@keyframes see {
+    0%   {top: -200px;opacity:0}
+    25%  {top: 200px;}
+    100% {top: 5px;}
+
+}
+
+@keyframes ache {
+    0%   {top: -100px;opacity:0}
+    25%  {top: 60px;}
+    100% {top: 0px;}
+}
+
+@keyframes aye {
+    0%   {top: 0px;opacity:0}
+    25%  {top: 120px;}
+    100% {top: 0px;}
+}
+
+@keyframes are {
+    0%   {top: -400px;opacity:0}
+    25%  {top: 300px;}
+    100% {top: 0px;}
+}
+
+@keyframes ell {
+    0%   {top: -50px;opacity:0}
+    25%  {top: 200px;}
+    100% {top: 0px;}
+}
+
+@keyframes eye {
+        0%   {top: 0px;opacity:0}
+        25%  {top: 150px;}
+        100% {top: 0px;}
+}
+
+@keyframes eaa {
+            0%   {top: -50px;opacity:0}
+            25%  {top: 350px;}
+            100% {top: 0px;}
+          }
+/*last name*/
+@keyframes space {
+    0%   {top: -200px;opacity:0}
+    25%  {top: 200px;}
+    100% {top: 0px;}
+}
+
+@keyframes gee {
+    0%   {top: -200px;opacity:0}
+    25%  {top: 200px;}
+    100% {top: 5px;}
+}
+
+@keyframes ayye {
+    0%   {top: -100px;opacity:0}
+    25%  {top: 60px;}
+    100% {top: 0px;}
+}
+
+@keyframes arre {
+    0%   {top: 0px;opacity:0}
+    25%  {top: 120px;}
+    100% {top: 0px;}
+}
+
+@keyframes enn {
+    0%   {top: -400px;opacity:0}
+    25%  {top: 300px;}
+    100% {top: 0px;}
+}
+
+@keyframes ayyee {
+    0%   {top: -50px;opacity:0}
+    25%  {top: 200px;}
+    100% {top: 0px;}
+}
+
+@keyframes ayyeee {
+        0%   {top: 0px;opacity:0}
+        25%  {top: 150px;}
+        100% {top: 0px;}
+}
+
+@keyframes esss {
+            0%   {top: -50px;opacity:0}
+            25%  {top: 350px;}
+            100% {top: 0px;}
+}
 
 body {
 	background-image: url(http://cdn1.bestpsdfreebies.com/wp-content/uploads/2014/05/shards_pattern.jpg);
 	background-position: top left;
 	background-repeat: repeat;
-	
+	z-index: -1;
 }
 h1 {
   text-align:center;
@@ -123,14 +309,14 @@ top:1px;
         to {
             left: 80%;
         }
-@font-face {
+				@font-face {
   font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
   src: local('Lato Regular'), local('Lato-Regular'), url(http://fonts.gstatic.com/s/lato/v11/8qcEw_nrk_5HEcCpYdJu8BTbgVql8nDJpwnrE27mub0.woff2) format('woff2');
   unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
 }
-
+/* latin */
 @font-face {
   font-family: 'Lato';
   font-style: normal;
@@ -138,7 +324,7 @@ top:1px;
   src: local('Lato Regular'), local('Lato-Regular'), url(http://fonts.gstatic.com/s/lato/v11/MDadn8DQ_3oT6kvnUq_2r_esZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
-
+/* latin-ext */
 @font-face {
   font-family: 'Lato';
   font-style: normal;
@@ -146,7 +332,7 @@ top:1px;
   src: local('Lato Black'), local('Lato-Black'), url(http://fonts.gstatic.com/s/lato/v11/t85RP2zhSdDjt5PhsT_SnlKPGs1ZzpMvnHX-7fPOuAc.woff2) format('woff2');
   unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
 }
-
+/* latin */
 @font-face {
   font-family: 'Lato';
   font-style: normal;
@@ -154,7 +340,7 @@ top:1px;
   src: local('Lato Black'), local('Lato-Black'), url(http://fonts.gstatic.com/s/lato/v11/lEjOv129Q3iN1tuqWOeRBgLUuEpTyoUstqEm5AMlJo4.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
-
+/* latin-ext */
 @font-face {
   font-family: 'Lato';
   font-style: italic;
@@ -162,7 +348,7 @@ top:1px;
   src: local('Lato Italic'), local('Lato-Italic'), url(http://fonts.gstatic.com/s/lato/v11/cT2GN3KRBUX69GVJ2b2hxn-_kf6ByYO6CLYdB4HQE-Y.woff2) format('woff2');
   unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
 }
-
+/* latin */
 @font-face {
   font-family: 'Lato';
   font-style: italic;
@@ -170,7 +356,7 @@ top:1px;
   src: local('Lato Italic'), local('Lato-Italic'), url(http://fonts.gstatic.com/s/lato/v11/1KWMyx7m-L0fkQGwYhWwuuvvDin1pK8aKteLpeZ5c0A.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
-
+/* latin-ext */
 @font-face {
   font-family: 'Lato';
   font-style: italic;
@@ -178,7 +364,7 @@ top:1px;
   src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(http://fonts.gstatic.com/s/lato/v11/AcvTq8Q0lyKKNxRlL28Rn4X0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
   unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
 }
-
+/* latin */
 @font-face {
   font-family: 'Lato';
   font-style: italic;
