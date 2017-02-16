@@ -1,15 +1,6 @@
-function toggler(divId) {
-    function onSignIn(googleUser) {
-  var profile = googleUser.getBasicProfile();
-  console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
-  console.log('Name: ' + profile.getName());
-  console.log('Image URL: ' + profile.getImageUrl());
-  console.log('Email: ' + profile.getEmail());
-}
-    $("#" + divId).toggle();
-}
-var one = getDocumentById("one");
-
-one.onclick(function() {
-  querySearch
+$(document).ready(function(){
+   $(".hideMe").hide();
+     $(".myButton").click(function(){
+       $("hideMe").toggle();
+     });
 });
