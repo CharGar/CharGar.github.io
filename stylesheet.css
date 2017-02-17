@@ -197,6 +197,8 @@ h1 {
   font-family:fantasy;
 }
 p {
+  font-size: 90px;
+  text-shadow: 5px 5px 5px;
 	overflow: hidden;
 }
 
